@@ -17,5 +17,6 @@ boton.addEventListener('click', () => {
   });
 
   lista.appendChild(li);
+  document.getElementById('total').textContent = lista.children.length;
   input.value = '';
 });
